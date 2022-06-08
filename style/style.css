@@ -1,0 +1,37 @@
+#main-container{
+    width: 80%;
+    margin:0 auto;
+    border: 1px solid black;
+    padding:20px;
+
+
+}
+#blog-data-table{
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+#options-container{
+    background-color: rgb(231, 172, 233);
+    padding:20px;
+    
+}
+#options-table {
+    width: 80%;
+    padding-bottom: 20px;
+
+}
+
+tr{
+    height:30px;
+}
+
+textarea{
+    width: 80%;
+    height:50%;
+
+}
+#seo-container{
+    border: 1px solid red;
+
+}
