@@ -32,9 +32,16 @@ textarea{
 }
 #seo-container{
 
+    padding-top:20px;
+    padding-bottom: 20px;
 
 }
 #preview-button{
     padding: 10px;
+    width: 150px;
+
+}
+#meta-desc{
+    width: 300px;
 
 }
