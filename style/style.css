@@ -1,7 +1,6 @@
 #main-container{
     width: 80%;
     margin:0 auto;
-    border: 1px solid black;
     padding:20px;
 
 
@@ -32,6 +31,6 @@ textarea{
 
 }
 #seo-container{
-    border: 1px solid red;
+
 
 }
