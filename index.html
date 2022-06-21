@@ -8,7 +8,7 @@
     <title>Content Management</title>
 </head>
 <body>
-    <form action = "https://www.google.com/">
+    <form>
         <div id = "main-container">
         
             <div id = "form-title"><h2>Create New Post</h2>
@@ -53,9 +53,12 @@
                     </table>
                                    <!-------- Enter blog text ------------->
                     <div id = "blog-content">
-                            <textarea placeholder="Write your post here!"></textarea>
+                            <textarea id ="blog-area" placeholder="Write your post here!"></textarea>
                         </div>
                         <div id = "preview-button"><input type = "submit" value = "Preview"></div>
+                        <div id = "blog-preview">
+                            <textarea id ="preview-area"></textarea>
+                        </div>
 
                 </div>
                 <div id = "seo-container">
