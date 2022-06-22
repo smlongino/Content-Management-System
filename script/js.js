@@ -1,18 +1,16 @@
+const title = document.getElementById("blogTitle");
 const blogArea = document.getElementById("blog-area");
-const date = document.getElementByType("date");
-const title = document.getElementByName("blogTitle");
 const previewArea = document.getElementById("preview-area");
-const previewButton = document.getElementById("preview-button");
-var tag = document.createElement("p");
+const previewButton = document.getElementById("btnPreview");
+const date = document.getElementById("date");
+const author = document.getElementById("author")
+
+// var tag = document.createElement("p");
+
 
 previewButton.addEventListener('click', function()
 {
-    previewArea.innerText = blogArea.Value
-    // var text = document.createTextNode("Tutorix is the best e-learning platform");
+    previewArea.innerText = title.value + "\n" + date.value + "\n" + "Posted by: " + author.value + "\n\n" + blogArea.value;
+    //previewArea.value = title.value + "\n" + date.value + "\n" + "Posted by: " + author.value + "\n\n" + blogArea.value;
 
-    // tag.appendChild(text);
-    
-    // var element = document.getElementById("new");
-    
-    // element.appendChild(tag);
 })

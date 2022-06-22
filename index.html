@@ -8,7 +8,7 @@
     <title>Content Management</title>
 </head>
 <body>
-    <form>
+
         <div id = "main-container">
         
             <div id = "form-title"><h2>Create New Post</h2>
@@ -17,15 +17,15 @@
                 <table id= "blog-data-table">
                     <tr>
                         <td><label for="blogTitle">Blog Title:</label></td>
-                        <td><input type = "text" width = "150px" name = "blogTitle" placeholder="Add an eye-catching title" ></td>
+                        <td><input type = "text" width = "150px" name = "blogTitle" id = "blogTitle" placeholder="Add an eye-catching title" ></td>
                     </tr>
                     <tr>
                         <td><label for = "date">Publish Date:</label></td>
-                        <td><input name ="date" type="date"> </td>
+                        <td><input name ="date" type="date" id = "date"> </td>
                     </tr>
                     <tr>
                         <td><label for = "author">Author:</label></td>
-                        <td><input name = "author"></td>
+                        <td><input name = "author" type = "text" id = "author"></td>
                     </tr>
                 </table>
             
@@ -51,14 +51,15 @@
                             <td><input name ="image-upload" type = "file"></td>
                         </tr>
                     </table>
+                    <br>
                                    <!-------- Enter blog text ------------->
-                    <div id = "blog-content">
-                            <textarea id ="blog-area" placeholder="Write your post here!"></textarea>
-                        </div>
-                        <div id = "preview-button"><input type = "submit" value = "Preview"></div>
-                        <div id = "blog-preview">
-                            <textarea id ="preview-area"></textarea>
-                        </div>
+                
+                        <div><textarea id ="blog-area" placeholder="Write your post here!"></textarea></div>
+                        
+                        <input type = "button" value = "Preview" id = "btnPreview">
+                        
+                        <div id ="preview-area"></div>
+                        
 
                 </div>
                 <div id = "seo-container">
@@ -95,7 +96,7 @@
         </div>
        
 
-    </form>
+
     <script src = "script/js.js"></script>
     
 </body>
